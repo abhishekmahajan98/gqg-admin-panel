@@ -17,6 +17,7 @@ const App = () => {
             <Route path="/" element={<CaptureUserActions />} />
             <Route path="/capture-analytics" element={<CaptureAnalytics />} />
             <Route path="/capture-publish" element={<CapturePublish />} />
+            <Route path="/capture-feature-requests" element={<CaptureUserActions />} />
           </Routes>
         </div>
         

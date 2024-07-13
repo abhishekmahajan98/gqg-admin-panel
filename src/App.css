@@ -18,3 +18,19 @@
   display: flex;
   flex-direction: column;
 }
+.app-menu {
+  position: relative;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .toggle-button {
+    position: fixed;
+  }
+}

@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Features to implement
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Capture
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+* User Actions
+  * Chnage user's name
+  * Change user's role
+  * Change user's email
+  * get user research error reports
+  * change user's main writeup file name
+  * change user's writeups
+  * save info of every change you made in a database
+* User Feature Request
+  * acknowledge user request
+  * Show the requests in a table with the requests by leaderhsip as a priority element always
+  * shortlist user request for implementation
+  * notify users if the request has been moved to implementation phase
+  * notify users if their request has been implemented in prod
+  * move implemented features out of the request list
+  * catalogue every update in a db along with this
+  * filter requests by stage they are in
+* Capture Publish
+  * get the saved data from user actions db abd feature request update db, publish them using an email
+* Capture Analytics
+  * see number and details of all writeups submitted that week/month/quarter/year
+  * be able to see top performers based on the recommendations for all time periods based on rec score>3
+  * be able to see low performers based on the recommendations based on rec score < 3

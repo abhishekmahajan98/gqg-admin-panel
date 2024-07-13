@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   AppstoreOutlined,
@@ -31,6 +31,11 @@ const items = [
             key: '3',
             icon: <ContainerOutlined />,
             label: <Link to="/capture-publish">Publish</Link>,
+          },
+          {
+            key: '4',
+            icon: <AppstoreOutlined />,
+            label: <Link to="/capture-feature-requests">Feature Requests</Link>,
           },
     ],
   },
